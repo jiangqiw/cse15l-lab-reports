@@ -8,8 +8,8 @@ I have already downloaded the VS Code during the CSE11 class, but here are the b
 3. Create CSE15L Folder
 
 Here is a screenshot of my VS Code
-
+![Image](lab1_1.png)
+![Image](lab1_2.png)
 
 > Setting up Remote Connecting
-
 
