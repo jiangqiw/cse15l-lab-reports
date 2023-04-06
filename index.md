@@ -7,6 +7,9 @@ I have already downloaded the VS Code during the CSE11 class, but here are the b
 2. Install VS Code
 3. Create CSE15L Folder
 
+Here is a screenshot of my VS Code
+
+
 > Setting up Remote Connecting
 
 
