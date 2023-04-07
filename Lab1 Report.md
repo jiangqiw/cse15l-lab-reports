@@ -22,3 +22,4 @@ Here is a screenshot of my VS Code
 
 Note: if you do everything sucessfull, you should be able to see following:
 
+![Image](lab1_4.png)
