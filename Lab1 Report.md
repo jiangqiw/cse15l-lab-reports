@@ -35,3 +35,4 @@ Here are some basic commands that might be useful!
 
 Here is a screenshot of combination of commands as an example:
 
+![Image](lab1_5.png)
