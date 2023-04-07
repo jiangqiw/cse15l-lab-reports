@@ -23,3 +23,15 @@ Here is a screenshot of my VS Code
 Note: if you do everything sucessfull, you should be able to see following:
 
 ![Image](lab1_4.png)
+
+
+>Basic Commands
+Here are some basic commands that might be useful!
+
+1. `cd` -- change directory
+2. `ls` -- list the names and features of files and directories
+3. `pwd` -- Print Working Directory
+4. `cat` -- concatenate
+
+Here is a screenshot of combination of commands as an example:
+
