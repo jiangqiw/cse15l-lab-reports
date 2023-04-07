@@ -18,3 +18,7 @@ Here is a screenshot of my VS Code
 `ssh cs15lsp23zz@ieng6.ucsd.edu` where zz is your account name
 3. Enter Password
 
+![Image](lab1_3.png)
+
+Note: if you do everything sucessfull, you should be able to see following:
+
