@@ -7,6 +7,10 @@ I have already downloaded the VS Code during the CSE11 class, but here are the b
 2. Install VS Code
 3. Create CSE15L Folder
 
+The link to VS Code installation: [Link]https://code.visualstudio.com/
+
+Note: It is important to download the correct Windows/Mac/Linux version of the VS Code
+
 Here is a screenshot of my VS Code
 
 ![Image](lab1_1.png)
@@ -17,6 +21,10 @@ Here is a screenshot of my VS Code
 2. Use Command:
 `ssh cs15lsp23zz@ieng6.ucsd.edu` where zz is your account name
 3. Enter Password
+
+Link that can find username: [Link]https://sdacs.ucsd.edu/~icc/index.php
+
+Link to tutorial to change password: [Link]https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view
 
 ![Image](lab1_3.png)
 
