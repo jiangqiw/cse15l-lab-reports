@@ -120,9 +120,41 @@ public void testReverseInPlace() {
 ```
 3. Symptom
 
+![image](lab2-4.png)
+
 The desired output for the tester is : 5, 4, 3, 2, 1
 
 The output for the tester is : 5, 4, 3, 4, 5
 
+4. The bug and correct code
 
+Before Code:
 
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+
+After Code:
+
+```
+static void reverseInPlace(int[] arr) {
+    for (int i = 0; i < arr.length / 2; i++) {
+        int temp = arr[i]; // swap the element
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = temp;
+    }
+}
+```
+
+The issue is that, since it is done inplace, so the loop directly change the elements in the array that haven't been swaped yet. So, the number, 1, 2 are
+already changed to 5, 4 when swapping.
+
+My solution is to swap the element by pair, to avoid the same bug.
+
+> Part3 Reflection
+
+One thing that I didn't know before is how the online server, like a website, run. I learned it in lab2, and we are able to see the code behind a website and how the website might change if we visit a different url or using different query. This is something that I never learned before and it is also interesting since it is closely related to the real-life online server.
