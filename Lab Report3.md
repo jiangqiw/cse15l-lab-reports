@@ -2,6 +2,8 @@
 
 I am going to research on the command `find` and its command line option
 
+Sources: [Linux find command on Computer Hope Website](https://www.computerhope.com/unix/ufind.htm)
+
 > Option 1: `-type`
 
 This option find files with file types. 
@@ -222,7 +224,7 @@ This method would be helpful if trying to search for large/small files and also 
 
 > Option 4: `-iname`
 
-This option 
+This option search the name of the file and is case insensitive
 
 Example 1:
 
@@ -230,9 +232,27 @@ Code：
 
 `find ./technical -iname "Chapter*.txt"`
 
+This line search for txt file with name start with Chapter, and is case insensitive
+
 Returned result:
 
 ```
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
 ```
 
 Example 2:
@@ -241,7 +261,27 @@ Code：
 
 `find ./technical -iname "PMED*.txt"`
 
+This line search for txt file with name start with PMED, and is case insensitive
+
 Returned result:
 
 ```
+./technical/plos/pmed.0020273.txt
+./technical/plos/pmed.0020065.txt
+./technical/plos/pmed.0020071.txt
+./technical/plos/pmed.0020059.txt
+./technical/plos/pmed.0010039.txt
+./technical/plos/pmed.0010010.txt
+./technical/plos/pmed.0020104.txt
+./technical/plos/pmed.0020272.txt
+./technical/plos/pmed.0020258.txt
+./technical/plos/pmed.0020099.txt
+./technical/plos/pmed.0010013.txt
+./technical/plos/pmed.0020113.txt
+./technical/plos/pmed.0020098.txt
+./technical/plos/pmed.0020067.txt
+./technical/plos/pmed.0020073.txt
+...
 ```
+
+This method would be useful to search for files in a folder that might have different formatting style, like upper case first letter
