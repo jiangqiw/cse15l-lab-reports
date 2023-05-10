@@ -78,6 +78,7 @@ Example 1:
 Code：
 
 `find ./technical -mtime +12`
+This code show the files that modified 12 days before
 
 Returned result:
 
@@ -91,6 +92,8 @@ Example 2:
 Code:
 
 `find ./technical -mtime +11`
+
+This shows the files modified 11 days before.
 
 Returned result:
 
@@ -128,7 +131,7 @@ Returned result:
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
 ```
-This shows the files modified 11 days before.
+
 
 This shows that most files are modified 11 days before, and this method could 
 
@@ -143,6 +146,8 @@ Example 1:
 Code：
 
 `find ./technical -size +100k`
+
+This return the file that have size more than 100 Kb
 
 Returned result:
 
@@ -178,7 +183,6 @@ Returned result:
 ./technical/911report/chapter-12.txt
 ```
 
-This file return the txt file that have size more than 100 Kb
 
 Example 2:
 
@@ -214,6 +218,7 @@ Returned result:
 ./technical/plos/pmed.0020120.txt
 ./technical/911report
 ```
+This method would be helpful if trying to search for large/small files and also searching for potentially empty files
 
 > Option 4: `-iname`
 
