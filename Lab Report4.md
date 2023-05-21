@@ -53,13 +53,13 @@ i
 :wq<enter>
 ```
 
-![Image](lab4/lab4-4)
-![Image](lab4/lab4-5)
+![Image](lab4/lab4-4.png)
+![Image](lab4/lab4-5.png)
 
 In the command, I first use `vim` to open the `ListExamples.java` and is able to edit it. I then use `j` and 'l' to move to the location where I need to get the bug fixed. Then, I use `x` command to delete the wrong statement, which is `1`, then I type `i` to enter insert mode and insert `2` at the location. I then press `<Esc>` to 
 exit the insert mode and `wq` to save and exit vim.
 
-## Step8: Run the test again
+## Step 8: Run the test again
 
 Keys pressed:
 
@@ -67,6 +67,34 @@ Keys pressed:
 <up arrow><up arrow><enter>
 ```
 
-![image](lab4/lab4-6)
+![image](lab4/lab4-6.png)
 
 I use the bash hitory and get the history of `bash test.sh`, to run the test again. Since the bug is fixed, to the test file run successfully.
+
+## Step 9: Commit and push the resulting change
+
+Keys pressed:
+
+```
+git<space>add<space>ListExamples.java<enter>
+git<space>commit<space>-m<space>"bug fixed"<enter>
+git<space>push<enter>
+```
+
+![iamge](lab4/lab4-7.png)
+
+I use `git add`, 'git commit' with message `"bug fixed"`, and push it on github, so I update the version on github and get the bug fixed.
+
+## Summary
+
+Here are the keys commands I used and their effects:
+
+- `<Command -V>`: Paste
+- `vim`: open vim and being able to edit file in command line
+- `j`: moving down one line in vim
+- `l`: moving right one block in vim
+- `x`: delete the current letter in vim
+- `i`: enter insert mode in vim
+- `<Esc>`: exit current mode and go to command mode in vim
+- `:wq`: save and exit file
+- `<up arrow>`: get last bash history
