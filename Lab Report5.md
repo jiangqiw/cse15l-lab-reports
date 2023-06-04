@@ -2,7 +2,7 @@
 
 In this lab report, I will design a scenario that a student encounter bugs and TA tries to solve the bug.
 
-> Part1: Origin Post with Bug Description
+# Part1: Origin Post with Bug Description
 
 ## Part1: Student's Original Post
 
@@ -50,7 +50,7 @@ Ok. I am running the code in the grader-review-jiangqiw file and have grade.sh, 
 
 Eave the screenshot of my code in the grade.sh file.
 
-![image](lab5-2.png)
+![image](lab5-6.png)
 
 Here are some command and output for running other implementation for list methods.
 
@@ -90,4 +90,9 @@ then
     exit
 fi
 ```
+
+# Part 2: Reflection
+
+In the second half of the lab, I learned something related with github, including how to link the ieng6 account to github and also use terminal in VS Code to add, commit and push file to github. This is really helpful, especially I am working on a project which include writing report on github website and require collaboration.
+I apply these github command in the project to work together with my group mates. Also, I really find it very interesting about building grading script and have an idea how the autograder on gradescope works.
 
