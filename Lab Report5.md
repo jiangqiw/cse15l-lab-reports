@@ -39,15 +39,55 @@ I was wondering it is possible there is problem with the given implementation?
 Hi Jiangqi! In your screenshot, I can see the failure-inducing input and context. I think there is no problem with the given implementation of list methods. However, in the screenshot, I cannot see your code in grade.sh, which could contain
 wrong code. Can you show me a screenshot of the grade.sh document?
 
-Also, please try running the program on other list methods example. That could be helpful for finding the error.
+Also, please describe the file and directory structure and try running the program on other list methods example. That could be helpful for finding the error. 
 
 
 ## Part3: Student's reply
 
 ### Reply
 
-Ok. I have the screenshot of my code in the grade.sh file and also the output when running the file with compiler error.
+Ok. I am running the code in the grader-review-jiangqiw file and have grade.sh, GradeServer.java, Server.java, TestListExamples.java and lib that contains junit testing file.
+
+Eave the screenshot of my code in the grade.sh file.
 
 ![image](lab5-2.png)
 
+Here are some command and output for running other implementation for list methods.
+
+This one is running compiler error file.
+
 ![image](lab5-3.png)
+
+This one is running file with wrong name.
+
+![image](lab5-5.png)
+
+This one is running file with subtle error.
+
+![image](lab5-4.png)
+
+### Description of the bug
+
+From the screenshot about the code in grade.sh file and also the failure-inducing input, I think there is problem with you code, especially the part detecting whether there is compiler error in the code.
+
+I see from your code that there is one part about detection the exit code to give student hint about whether the file successfully compile or not, which is the code below:
+
+```
+if [[ $? -eq 0 ]]
+then
+    echo "There is a Compiler Error"
+    exit
+fi
+```
+
+The problem with your code is that when the exit code is non-zero, it means the file have some error, especially compiler error. However, in your code, the if statement is wrong, meaning that in your grading script, a successfully compiled file would return compiler error and exit the grading script.
+
+The way to fix the bug is to reverse the if statement, which is shown below:
+```
+if [[ $? -ne 0 ]]
+then
+    echo "There is a Compiler Error"
+    exit
+fi
+```
+
