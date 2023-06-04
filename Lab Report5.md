@@ -66,7 +66,7 @@ This one is running file with subtle error.
 
 ![image](lab5-4.png)
 
-### Description of the bug
+## Part4: Description of the Bug
 
 From the screenshot about the code in grade.sh file and also the failure-inducing input, I think there is problem with you code, especially the part detecting whether there is compiler error in the code.
 
