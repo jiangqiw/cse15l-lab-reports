@@ -39,7 +39,7 @@ I was wondering it is possible there is problem with the given implementation?
 Hi Jiangqi! In your screenshot, I can see the failure-inducing input and context. I think there is no problem with the given implementation of list methods. However, in the screenshot, I cannot see your code in grade.sh, which could contain
 wrong code. Can you show me a screenshot of the grade.sh document?
 
-Also, please try running the program on list methods example that generate compiler error. That could be helpful for finding the error.
+Also, please try running the program on other list methods example. That could be helpful for finding the error.
 
 
 ## Part3: Student's reply
@@ -48,3 +48,6 @@ Also, please try running the program on list methods example that generate compi
 
 Ok. I have the screenshot of my code in the grade.sh file and also the output when running the file with compiler error.
 
+![image](lab5-2.png)
+
+![image](lab5-3.png)
