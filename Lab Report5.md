@@ -54,7 +54,9 @@ Here is the screenshot of my code in the grade.sh file.
 
 Here is the screenshot of code in the TestListExamples.java file
 
+![image](lab5-7.png)
 
+Since these are the only two files that I edited, so I believe there is bug within these two files.
 
 Here are some command and output for running other implementation for list methods.
 
