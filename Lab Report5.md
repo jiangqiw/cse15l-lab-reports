@@ -39,7 +39,7 @@ I was wondering it is possible there is problem with the given implementation?
 Hi Jiangqi! In your screenshot, I can see the failure-inducing input and context. I think there is no problem with the given implementation of list methods. However, in the screenshot, I cannot see your code in grade.sh, which could contain
 wrong code. Can you show me a screenshot of the grade.sh document?
 
-Also, please describe the file and directory structure and try running the program on other list methods example. That could be helpful for finding the error. 
+Also, please describe the related file and directory structure and try running the program on other list methods example. That could be helpful for finding the error. 
 
 
 ## Part3: Student's reply
@@ -48,9 +48,13 @@ Also, please describe the file and directory structure and try running the progr
 
 Ok. I am running the code in the grader-review-jiangqiw file and have grade.sh, GradeServer.java, Server.java, TestListExamples.java and lib that contains junit testing file.
 
-Eave the screenshot of my code in the grade.sh file.
+Here is the screenshot of my code in the grade.sh file.
 
 ![image](lab5-6.png)
+
+Here is the screenshot of code in the TestListExamples.java file
+
+
 
 Here are some command and output for running other implementation for list methods.
 
